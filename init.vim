@@ -6,9 +6,11 @@ set expandtab
 set splitright
 set clipboard=unnamed
 
+let mapleader = "\<Space>"
+
 colorscheme molokai
 
-nmap <Leader>d <Plug>(coc-definition)
+nmap <Leader>gd <Plug>(coc-definition)
 
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
